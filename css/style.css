@@ -4,7 +4,7 @@
     border: none;
 }
 .container{
-    width: 30%;
+    width: 500px;
     margin: 0 auto;
 }
 body{
@@ -23,8 +23,11 @@ body{
     align-items: center;
     justify-content: space-around;
 }
+.header-start h1{
+    font-size: 20px;
+}
 .header-start img{
-    width: 500px;
+    width: 300px;
     height: 150px;
     border-radius: 50%;
 }
@@ -32,14 +35,14 @@ body{
     text-align: center;
     font-size: 15px;
     line-height: 20px;
-    color: #7a7777;
+    color:black;
     padding: 10px;
 }
 .header-center h3{
     text-align: center;
     font-size: 15px;
     line-height: 20px;
-    color: #dc9595;
+    color:black;
 }
 .header-bottom{
     display: flex;
